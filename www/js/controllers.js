@@ -12,6 +12,7 @@ angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
     $scope.health = PowerFactory.$value
   })
 
+  var itemRef =  new Firebase('https://studymemoria.firebaseio.com/Points')
 
   $scope.feed = function() {
     $scope.health += 1
