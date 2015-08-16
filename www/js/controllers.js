@@ -1,9 +1,16 @@
 angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
 
-.controller('KnomiCtrl', function($scope, $cordovaLocalNotification, foodFactory, $ionicModal, $firebaseArray) {
+.controller('KnomiCtrl', function($scope, $cordovaLocalNotification, foodFactory, PointsFactory, PowerFactory, $ionicModal, $firebaseObject) {
   $scope.foods = [foodFactory.randomFood()]
   $scope.visibilityControl = false;
 
+  PointsFactory.$loaded().then(function() {
+    $scope.points = PointsFactory.$value
+  })
+
+  PowerFactory.$loaded().then(function() {
+    $scope.health = PowerFactory.$value
+  })
 
 
   $scope.feed = function() {
@@ -69,13 +76,13 @@ angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
       });
     }, 10000);
   };
-  var itemRef =  new Firebase('https://studymemoria.firebaseio.com/Points');
-  itemRef.on("value", function(snapshot) {
-    allData = (snapshot.val());
-    console.log(allData.user_points);
-    $scope.points = allData.user_points;
-    $scope.health = allData.knomi_power;
-  });
+  // var itemRef =  new Firebase('https://studymemoria.firebaseio.com/Points');
+  // itemRef.on("value", function(snapshot) {
+  //   allData = (snapshot.val());
+  //   console.log(allData.user_points);
+  //   $scope.points = allData.user_points;
+  //   $scope.health = allData.knomi_power;
+  // });
 })
 
 .controller('QsCtrl', function($scope, QuestionFactory) {

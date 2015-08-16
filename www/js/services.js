@@ -5,6 +5,16 @@ angular.module('starter.services', [])
   var itemRef =  new Firebase('https://studymemoria.firebaseio.com/MyStudies');
   return $firebaseArray(itemRef);
 }])
+
+.factory('PointsFactory', ['$firebaseObject', function($firebaseObject) {
+  var itemRef =  new Firebase('https://studymemoria.firebaseio.com/Points/user_points');
+  return $firebaseObject(itemRef);
+}])
+
+.factory('PowerFactory', ['$firebaseObject', function($firebaseObject) {
+  var itemRef =  new Firebase('https://studymemoria.firebaseio.com/Points/knomi_power');
+  return $firebaseObject(itemRef);
+}])
 // .factory('Chats', function() {
 //   // Might use a resource here that returns a JSON array
 //
