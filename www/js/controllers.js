@@ -1,6 +1,6 @@
 angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
 
-.controller('KnomiCtrl', function($scope, $cordovaLocalNotification, foodFactory, PointsFactory, PowerFactory, $firebaseArray, ModalService) {
+.controller('KnomiCtrl', function($scope, $cordovaLocalNotification, foodFactory, PointsFactory, PowerFactory, $firebaseArray, ModalService, QuestionFactory) {
   $scope.foods = [foodFactory.randomFood()];
   $scope.visibilityControl = false;
 
@@ -41,8 +41,13 @@ angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
       $scope.points = allData.user_points;
       $scope.health = allData.knomi_power;
     });
+
+    var list = QuestionFactory;
+
+    // var studyItem = list.$getRecord($stateParams.studyItemId);
+
     var now = new Date().getTime();
-    var timeInSeconds = 7;
+    var timeInSeconds = list[1].interval;
     _X_sec_from_now = new Date(now + timeInSeconds *1000);
     $cordovaLocalNotification.schedule({
       id: 1,
