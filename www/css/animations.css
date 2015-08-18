@@ -1,0 +1,24 @@
+.knomikittyAjump {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 15px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Afulljump.png");
+
+  -webkit-animation: Ajump .8s steps(16) infinite;
+          animation: Ajump .8s steps(16) infinite;
+}
+
+@-webkit-keyframes Ajump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
+@keyframes Ajump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
