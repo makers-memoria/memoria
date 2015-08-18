@@ -1,4 +1,4 @@
-.knomikittyAjump {
+.knomikittyAfulljump {
   position: absolute;
   margin-top: 70px;
   margin-left: 15px;
@@ -8,17 +8,41 @@
   background-repeat: no-repeat;
   background-image: url("../img/Afulljump.png");
 
-  -webkit-animation: Ajump .8s steps(16) infinite;
-          animation: Ajump .8s steps(16) infinite;
+  -webkit-animation: Afulljump .8s steps(16) infinite;
+          animation: Afulljump .8s steps(16) infinite;
 }
 
-@-webkit-keyframes Ajump {
+@-webkit-keyframes Afulljump {
   from { background-position:    0px; }
   to { background-position: -2176px; }
 }
 
-@keyframes Ajump {
+@keyframes Afulljump {
   from { background-position:    0px; }
   to { background-position: -2176px; }
+}
+
+.knomikittyAfullroll {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 15px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Afullroll.png");
+
+  -webkit-animation: Afullroll .8s steps(12) infinite;
+          animation: Afullroll .8s steps(12) infinite;
+}
+
+@-webkit-keyframes Afullroll {
+  from { background-position:    0px; }
+  to { background-position: -1632px; }
+}
+
+@keyframes Afullroll {
+  from { background-position:    0px; }
+  to { background-position: -1632px; }
 }
 
