@@ -357,3 +357,50 @@
   to { background-position: -680px; }
 }
 
+.knomikittyCappear {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 185px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cappear.png");
+
+  -webkit-animation: Cappear 1.3s steps(47) infinite alternate;
+          animation: Cappear 1.3s steps(47) infinite alternate ;
+}
+
+@-webkit-keyframes Cappear {
+  from { background-position:    0px; }
+  to { background-position: -6392px; }
+}
+
+@keyframes Cappear {
+  from { background-position:    0px; }
+  to { background-position: -6392px; }
+}
+
+.knomikittyCchew {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 210px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cchew.png");
+
+  -webkit-animation: Cchew .4s steps(15) infinite;
+          animation: Cchew .4s steps(15) infinite;
+}
+
+@-webkit-keyframes Cchew {
+  from { background-position:    0px; }
+  to { background-position: -2040px; }
+}
+
+@keyframes Cchew {
+  from { background-position:    0px; }
+  to { background-position: -2040px; }
+}
