@@ -404,3 +404,172 @@
   from { background-position:    0px; }
   to { background-position: -2040px; }
 }
+
+.knomikittyCfly {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 250px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cfly.png");
+
+  -webkit-animation: Cfly 1.3s steps(20) infinite;
+          animation: Cfly 1.3s steps(20) infinite;
+}
+
+@-webkit-keyframes Cfly {
+  from { background-position:    0px; }
+  to { background-position: -2720px; }
+}
+
+@keyframes Cfly {
+  from { background-position:    0px; }
+  to { background-position: -2720px; }
+}
+
+.knomikittyCdisappear {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 50px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cdisappear.png");
+
+  -webkit-animation: Cdisappear 1.3s steps(28) infinite alternate;
+          animation: Cdisappear 1.3s steps(28) infinite alternate;
+}
+
+@-webkit-keyframes Cdisappear {
+  from { background-position:    0px; }
+  to { background-position: -3808px; }
+}
+
+@keyframes Cdisappear {
+  from { background-position:    0px; }
+  to { background-position: -3808px; }
+}
+
+.knomikittyCfulljump {
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 80px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cfulljump.png");
+
+  -webkit-animation: Cfulljump .8s steps(16) infinite alternate;
+          animation: Cfulljump .8s steps(16) infinite alternate;
+}
+
+@-webkit-keyframes Cfulljump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
+@keyframes Cfulljump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
+.knomikittyChalfjump {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 80px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Chalfjump.png");
+
+  -webkit-animation: Chalfjump .9s steps(8) infinite ;
+          animation: Chalfjump .9s steps(8) infinite ;
+}
+
+@-webkit-keyframes Chalfjump {
+  from { background-position:    0px; }
+  to { background-position: -1088px; }
+}
+
+@keyframes Chalfjump {
+  from { background-position:    0px; }
+  to { background-position: -1088px; }
+}
+
+.knomikittyChappy {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 130px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Chappy.png");
+
+  -webkit-animation: Chappy 1.3s steps(38) infinite ;
+          animation: Chappy 1.3s steps(38) infinite ;
+}
+
+@-webkit-keyframes Chappy {
+  from { background-position:    0px; }
+  to { background-position: -5168px; }
+}
+
+@keyframes Chappy {
+  from { background-position:    0px; }
+  to { background-position: -5168px; }
+}
+
+.knomikittyChitball {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 170px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Chitball.png");
+
+  -webkit-animation: Chitball .5s steps(9) infinite ;
+          animation: Chitball .5s steps(9) infinite ;
+}
+
+@-webkit-keyframes Chitball {
+  from { background-position:    0px; }
+  to { background-position: -1224px; }
+}
+
+@keyframes Chitball {
+  from { background-position:    0px; }
+  to { background-position: -1224px; }
+}
+
+.knomikittyCsad {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 200px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Csad.png");
+
+  -webkit-animation: Csad 1.9s steps(17) infinite alternate;
+          animation: Csad 1.9s steps(17) infinite alternate;
+}
+
+@-webkit-keyframes Csad {
+  from { background-position:    0px; }
+  to { background-position: -2312px; }
+}
+
+@keyframes Csad {
+  from { background-position:    0px; }
+  to { background-position: -2312px; }
+}
+
