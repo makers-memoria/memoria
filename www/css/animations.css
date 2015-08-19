@@ -573,3 +573,29 @@
   to { background-position: -2312px; }
 }
 
+.knomikittyCsleep {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 250px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Csleep.png");
+
+  -webkit-animation: Csleep 1.9s steps(57) infinite;
+          animation: Csleep 1.9s steps(57) infinite;
+}
+
+@-webkit-keyframes Csleep {
+  from { background-position:    0px; }
+  to { background-position: -7752px; }
+}
+
+@keyframes Csleep {
+  from { background-position:    0px; }
+  to { background-position: -7752px; }
+}
+
+
+/* <div class="knomikittyCappear" ng-drop="true" ng-drop-success="onDropComplete()"></div> */
