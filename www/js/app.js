@@ -62,6 +62,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       templateUrl: 'modals/food-modal.html'
     }
   })
+  
+  .state('questionInfo-popup', {
+    views: {
+      templateUrl: 'modals/questionInfo-popup.html'
+    }
+  })
 
   .state('tab.questions', {
       url: '/questions',

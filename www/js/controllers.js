@@ -122,10 +122,10 @@ angular.module('starter.controllers', ['ngCordova', 'ngDraggable', 'firebase'])
   $scope.showAlert = function(item) {
     var now = item.date;
     var newTime = Date.now() - (new Date(now + (item.interval * 1000)));
-    $scope.countDown = humanizeDuration(newTime, { round: true });
+    countDown = humanizeDuration(newTime, { round: true });
     var alertPopup = $ionicPopup.alert({
       scope: $scope,
-      templateUrl: '../modals/questionInfo-popup.html'
+      template: "<span>In countDown</span>"
     });
   };
 
