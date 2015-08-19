@@ -384,15 +384,15 @@
 .knomikittyCchew {
   position: absolute;
   margin-top: 130px;
-  margin-left: 210px;
+  margin-left: 215px;
 
   width: 136px;
   height: 115px;
   background-repeat: no-repeat;
   background-image: url("../img/Cchew.png");
 
-  -webkit-animation: Cchew .4s steps(15) infinite;
-          animation: Cchew .4s steps(15) infinite;
+  -webkit-animation: Cchew .2s steps(15) infinite;
+          animation: Cchew .2s steps(15) infinite;
 }
 
 @-webkit-keyframes Cchew {
