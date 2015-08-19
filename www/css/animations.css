@@ -165,5 +165,195 @@
   to { background-position: -272px; }
 }
 
+.knomikittyBfly {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 200px;
 
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bfly.png");
+
+  -webkit-animation: Bfly 1.3s steps(20) infinite;
+          animation: Bfly 1.3s steps(20) infinite;
+}
+
+@-webkit-keyframes Bfly {
+  from { background-position:    0px; }
+  to { background-position: -2720px; }
+}
+
+@keyframes Bfly {
+  from { background-position:    0px; }
+  to { background-position: -2720px; }
+}
+
+.knomikittyBfulljump {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 225px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bfulljump.png");
+
+  -webkit-animation: Bfulljump .8s steps(16) infinite;
+          animation: Bfulljump .8s steps(16) infinite;
+}
+
+@-webkit-keyframes Bfulljump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
+@keyframes Bfulljump {
+  from { background-position:    0px; }
+  to { background-position: -2176px; }
+}
+
+.knomikittyBhalfjump {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 15px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bhalfjump.png");
+
+  -webkit-animation: Bhalfjump .9s steps(8) infinite;
+          animation: Bhalfjump .9s steps(8) infinite;
+}
+
+@-webkit-keyframes Bhalfjump {
+  from { background-position:    0px; }
+  to { background-position: -1088px; }
+}
+
+@keyframes Bhalfjump {
+  from { background-position:    0px; }
+  to { background-position: -1088px; }
+}
+
+.knomikittyBhitball {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 45px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bhitball.png");
+
+  -webkit-animation: Bhitball .7s steps(9) infinite;
+          animation: Bhitball .7s steps(9) infinite;
+}
+
+@-webkit-keyframes Bhitball {
+  from { background-position:    0px; }
+  to { background-position: -1224px; }
+}
+
+@keyframes Bhitball {
+  from { background-position:    0px; }
+  to { background-position: -1224px; }
+}
+
+.knomikittyBsleepstart {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 85px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bsleepstart.png");
+
+  -webkit-animation: Bsleepstart 1.7s steps(26) infinite alternate;
+          animation: Bsleepstart 1.7s steps(26) infinite alternate;
+}
+
+@-webkit-keyframes Bsleepstart {
+  from { background-position:    0px; }
+  to { background-position: -3536px; }
+}
+
+@keyframes Bsleepstart {
+  from { background-position:    0px; }
+  to { background-position: -3536px; }
+}
+
+.knomikittyBsleep {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 115px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bsleep.png");
+
+  -webkit-animation: Bsleep 1.9s steps(57) infinite;
+          animation: Bsleep 1.9s steps(57) infinite;
+}
+
+@-webkit-keyframes Bsleep {
+  from { background-position:    0px; }
+  to { background-position: -7752px; }
+}
+
+@keyframes Bsleep {
+  from { background-position:    0px; }
+  to { background-position: -7752px; }
+}
+
+.knomikittyBblink {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 145px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Bblink.png");
+
+  -webkit-animation: Bblink .4s steps(5) infinite alternate;
+          animation: Bblink .4s steps(5) infinite alternate;
+}
+
+@-webkit-keyframes Bblink {
+  from { background-position:    0px; }
+  to { background-position: -680px; }
+}
+
+@keyframes Bblink {
+  from { background-position:    0px; }
+  to { background-position: -680px; }
+}
+
+.knomikittyCblink {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 145px;
+
+  width: 136px;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-image: url("../img/Cblink.png");
+
+  -webkit-animation: Bblink .4s steps(5) infinite alternate;
+          animation: Bblink .4s steps(5) infinite alternate;
+}
+
+@-webkit-keyframes Bblink {
+  from { background-position:    0px; }
+  to { background-position: -680px; }
+}
+
+@keyframes Bblink {
+  from { background-position:    0px; }
+  to { background-position: -680px; }
+}
 
